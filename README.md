@@ -2,11 +2,11 @@
 
 Proximal Policy Optimization Algorithm applied to PONG in discrete environment.
 
-[![Watch the video](/media/pong.gif)](/media/video.mp4)
-
 **Author:**
 
 *Simone Rossetti, Roma, January 2020*
+
+[![Watch the video](/media/pong.gif)](/media/video.mp4)
 
 **Framework:** 
 
