@@ -32,6 +32,8 @@ Channels have been shifted with respect the axes because Convolutional Layers in
 
 **Top reward:**
 
+Best Reward +21.000 in 4070 epochs (mean on 10 tests each 10 epochs)
+
 <p align="center" width="100%">
 <img src="/media/res.png" alt="" width= '50%'/>
 </p>
