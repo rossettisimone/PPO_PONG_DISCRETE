@@ -22,6 +22,9 @@ Whereas standard policy gradient methods perform one gradient update per data sa
 </video>
 </p>
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
+
 Pong environment is 210 x 160 x 3 pixel (H x W x C) in RGB (3 channels). 
 There are 6 possible actions in this environment, only 3 are useful: ‘stay’ 0, ‘up’ 2 and ‘down’ 5.
 To keep track of our environment the model needs consistent representation of the environment. Because of that, images have been reduced to a single channel (greyscale), then cropped along the playing area, squared and reduced by dimension. Resulting images of the states are 1 x 84 x 84 pixel (C x H x W).
