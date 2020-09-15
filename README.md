@@ -4,7 +4,7 @@ Proximal Policy Optimization Algorithm applied to PONG in discrete environment.
 
 **Author:**
 
-Simone Rossetti, Roma, January 2020
+*Simone Rossetti, Roma, January 2020*
 
 **Abstract:** 
 
@@ -16,7 +16,10 @@ Whereas standard policy gradient methods perform one gradient update per data sa
 **Environment**
 
 <p align="center" width="100%">
-<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/classes.png" alt="" width= '800px'/>
+<video width="50%" controls>
+  <source src="/media/video.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
 </p>
 
 Pong environment is 210 x 160 x 3 pixel (H x W x C) in RGB (3 channels). 
@@ -24,3 +27,8 @@ There are 6 possible actions in this environment, only 3 are useful: ‘stay’ 
 To keep track of our environment the model needs consistent representation of the environment. Because of that, images have been reduced to a single channel (greyscale), then cropped along the playing area, squared and reduced by dimension. Resulting images of the states are 1 x 84 x 84 pixel (C x H x W).
 Channels have been shifted with respect the axes because Convolutional Layers in PyTorch compute batch (B) of images in a different order (B x C x H x W).
 
+**Top reward:**
+
+<p align="center" width="100%">
+<img src="/media/res.png" alt="" width= '50%'/>
+</p>
