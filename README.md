@@ -8,6 +8,10 @@ Proximal Policy Optimization Algorithm applied to PONG in discrete environment.
 
 *Simone Rossetti, Roma, January 2020*
 
+**Framework:** 
+
+PyTorch
+
 **Abstract:** 
 
 PPO algorithm is a new kind of policy gradient method for reinforcement learning, in which this kind of methods are an appealing approach because they directly optimize the cumulative reward and can straightforwardly be used with nonlinear function approximators such as neural networks.
