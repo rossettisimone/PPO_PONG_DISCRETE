@@ -37,3 +37,7 @@ Best Reward +21.000 in 4070 epochs (mean on 10 tests each 10 epochs)
 <p align="center" width="100%">
 <img src="/media/res.png" alt="" width= '50%'/>
 </p>
+
+**Report:**
+
+You can read more about the project [here](/report.pdf)
