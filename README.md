@@ -16,10 +16,10 @@ Whereas standard policy gradient methods perform one gradient update per data sa
 **Environment**
 
 <p align="center" width="100%">
-
+[![Watch the video](/media/pong.gif)](/media/video.mp4)
 </p>
 
-[![Watch the video](/media/pong.gif)](/media/video.mp4)
+
 
 
 Pong environment is 210 x 160 x 3 pixel (H x W x C) in RGB (3 channels). 
