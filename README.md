@@ -2,6 +2,8 @@
 
 Proximal Policy Optimization Algorithm applied to PONG in discrete environment.
 
+[![Watch the video](/media/pong.gif)](/media/video.mp4)
+
 **Author:**
 
 *Simone Rossetti, Roma, January 2020*
@@ -16,11 +18,8 @@ Whereas standard policy gradient methods perform one gradient update per data sa
 **Environment**
 
 <p align="center" width="100%">
-[![Watch the video](/media/pong.gif)](/media/video.mp4)
+<img src="/media/sizes.png" alt="" width= '100%'/>
 </p>
-
-
-
 
 Pong environment is 210 x 160 x 3 pixel (H x W x C) in RGB (3 channels). 
 There are 6 possible actions in this environment, only 3 are useful: ‘stay’ 0, ‘up’ 2 and ‘down’ 5.
