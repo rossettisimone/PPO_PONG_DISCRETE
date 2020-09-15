@@ -22,7 +22,7 @@ Whereas standard policy gradient methods perform one gradient update per data sa
 </video>
 </p>
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](/media/video.mp4)](/media/video.mp4)
 
 
 Pong environment is 210 x 160 x 3 pixel (H x W x C) in RGB (3 channels). 
