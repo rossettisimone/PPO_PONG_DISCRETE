@@ -2,6 +2,10 @@
 
 Proximal Policy Optimization Algorithm applied to PONG in discrete environment.
 
+**Author:**
+
+Simone Rossetti, Roma, January 2020
+
 **Abstract:** 
 
 PPO algorithm is a new kind of policy gradient method for reinforcement learning, in which this kind of methods are an appealing approach because they directly optimize the cumulative reward and can straightforwardly be used with nonlinear function approximators such as neural networks.
@@ -10,6 +14,10 @@ The algorithm shown in the picture below is a generic representation of a proxim
 Whereas standard policy gradient methods perform one gradient update per data sample, it proposes a different objective function that enables multiple epochs of mini-batch updates.
 
 **Environment**
+
+<p align="center" width="100%">
+<img src="https://github.com/SimoneRosset/AUGMENTATION_GAN/blob/master/images/classes.png" alt="" width= '800px'/>
+</p>
 
 Pong environment is 210 x 160 x 3 pixel (H x W x C) in RGB (3 channels). 
 There are 6 possible actions in this environment, only 3 are useful: ‘stay’ 0, ‘up’ 2 and ‘down’ 5.
